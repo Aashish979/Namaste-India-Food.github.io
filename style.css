@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+	background:white!important;
+	font-family: Comic sans ms, sans-serif;
+	text-align:center;
+	margin:0;
+
+}
+
+h1{
+	font-family: casteller, sans-serif;
+	font-size:40px;
+}
+h2{
+	background:linear-gradient(45deg,red , black,red);
+	color:white;
+	padding:15px;
+	
+	border-radius:50%;
+	
+	box-shadow:0 0 10px black;
+}
+
+
+img{
+	border-radius:15px;
+	box-shadow: 0 0 10px black;
+}
+.main-nav{
+	background:  linear-gradient(45deg,red , black,red)!important;
+	padding:5px;
+	box-shadow: 0 5px 10px black;
+	position:sticky-top;
+	top:0;
+}
+
+.main-nav a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	padding: 10px 25px;
+	display:inline-block;
+}
+
+.main-nav  a:hover {
+	background: white;
+	color:black;
+	border-radius:50px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: center;
+  width: 25%;
+  padding: 5px;
+ 
+}
+
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display:table;
+
+
+  }
+
+
+
+@media (max-width:768px){
+	 img{
+		max-width: 100%;
+		height:auto;
+		
+		
+		
+	}
+}
